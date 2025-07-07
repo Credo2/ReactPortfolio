@@ -26,5 +26,4 @@
 
 *.log
 /public/hot
-.env
 node_modules
