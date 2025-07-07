@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Manufacturing+Consent&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import 'tailwindcss';
 
 @plugin 'tailwindcss-animate';
@@ -8,6 +10,16 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
+    --font-pixel: 'Bitcount Grid Double', system-ui;
+    --font-serif: 'Roboto', sans-serif;
+
+    --bg-primary: #07161a;
+    --foreground-primary: #202045;
+    --midground-primary: #2c3c62;
+    --background-primary: #445394;
+    --screen: #f6f6f6;
+    --lights: #e5c435;
+
     --font-sans:
         'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
