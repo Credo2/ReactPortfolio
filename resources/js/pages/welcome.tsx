@@ -13,8 +13,8 @@ export default function Welcome() {
             </Head>
             <div className="flex min-h-screen flex-col items-center bg-[#FDFDFC] p-6 text-[#1b1b18] lg:justify-center lg:p-8 dark:bg-[#0a0a0a]">
                 <div className="bg-amber-150 h-full p-5">
-                    <h1 className="bg-primary p-3 font-sans text-4xl">Primary</h1>
-                    <h1 className="foreground p-3 font-sans text-4xl">foreground</h1>
+                    <h1 className="p-3 font-sans text-4xl dark:bg-primary">Primary</h1>
+                    <h1 className="primary-foreground p-3 font-sans text-4xl">foreground</h1>
                     <h1 className="screen p-3 font-sans text-4xl">screen</h1>
                     <h1 className="foreground p-3 font-sans text-4xl">foreground</h1>
                     <h1 className="bg-midground p-3 font-sans text-4xl">midground</h1>
