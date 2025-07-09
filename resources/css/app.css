@@ -13,7 +13,7 @@
     --font-pixel: 'Bitcount Grid Double', system-ui;
     --font-serif: 'Roboto', sans-serif;
 
-    --color-baks: hsl(0, 47%, 54%);
+    --color-table: var(--tablecolor);
 
     --color-bgprime: var(--bg-primary);
     --color-foreground: var(--foreground-primary);
@@ -50,7 +50,18 @@
     }
 }
 
+@layer utilities {
+    .h-table {
+        height: calc(1 / 3 * 100vh);
+    }
+
+    .h-window {
+        height: calc(2 / 3 * 100vh);
+    }
+}
 :root {
+    --tablecolor: hsl(341, 37%, 39%);
+
     --background: hsl(0 0% 100%);
     --bg-primary: hsl(193, 58%, 6%);
     --foreground-primary: hsl(240, 37%, 20%);

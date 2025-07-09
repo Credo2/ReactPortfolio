@@ -1,5 +1,9 @@
 function Tablesprite() {
-    return <h1 className="stars bg-amber-800 p-3 font-sans text-4xl">Tabless</h1>;
+    return (
+        <div className="h-table bg-table font-sans text-4xl">
+            <div>sds</div>
+        </div>
+    );
 }
 
 export default Tablesprite;

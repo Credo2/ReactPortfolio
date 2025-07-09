@@ -22,8 +22,8 @@ export default function Welcome() {
                 --color-lights: var(--lights);
              */}
 
-            <div className="flex min-h-screen flex-col bg-baks">
-                <div className="bg-background p-5">
+            <div className="bg-baks flex min-h-screen flex-col">
+                <div className="h-window bg-background p-5">
                     <h1 className="bg-bgprime p-3 font-sans text-4xl">Primary</h1>
                     <h1 className="bg-foreground p-3 font-sans text-4xl">foreground</h1>
                     <h1 className="bg-white p-3 font-serif text-4xl">screen</h1>
@@ -31,8 +31,8 @@ export default function Welcome() {
                     <h1 className="bg-midground p-3 font-sans text-4xl">midground</h1>
                     <h1 className="bg-background p-3 font-sans text-4xl">Background</h1>
                     <h1 className="bg-lights p-3 font-sans text-4xl">Stars</h1>
-                    <Tablesprite />
                 </div>
+                <Tablesprite />
             </div>
         </>
     );
