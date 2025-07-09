@@ -13,12 +13,13 @@
     --font-pixel: 'Bitcount Grid Double', system-ui;
     --font-serif: 'Roboto', sans-serif;
 
-    --bg-primary: #ffff;
-    --foreground-primary: #202045;
-    --midground-primary: #2c3c62;
-    --background-primary: #445394;
-    --screen: #f6f6f6;
-    --lights: #e5c435;
+    --color-baks: hsl(0, 47%, 54%);
+
+    --color-bgprime: var(--bg-primary);
+    --color-foreground: var(--foreground-primary);
+    --color-midground: var(--midground-primary);
+    --color-background: var(--background-primary);
+    --color-lights: var(--lights);
 }
 
 /*
@@ -39,12 +40,6 @@
     }
 }
 
-/* :root {
-}
-
-.dark {
-} */
-
 @layer base {
     * {
         /* @apply border-border; */
@@ -53,4 +48,17 @@
     body {
         /* @apply bg-background text-foreground; */
     }
+}
+
+:root {
+    --background: hsl(0 0% 100%);
+    --bg-primary: hsl(193, 58%, 6%);
+    --foreground-primary: hsl(240, 37%, 20%);
+    --midground-primary: hsl(222, 38%, 28%);
+    --background-primary: hsl(229, 37%, 42%);
+    --lights: hsl(49, 77%, 55%);
+}
+
+.dark {
+    --background-primary: hsl(324, 37%, 42%);
 }
