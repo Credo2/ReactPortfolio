@@ -61,10 +61,12 @@
     .h-window {
         height: calc(2 / 3 * 100vh);
     }
+    
 }
 :root {
     --tablecolorbase: hsl(341, 37%, 39%);
-    --tablelight: hsl(347, 58%, 61%);
+    /* --tablelight: hsl(347, 58%, 61%); */
+    --tablelight: hsl(28, 58%, 61%);
 
     --shadow-main: hsl(240, 40%, 26%);
 
