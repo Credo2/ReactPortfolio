@@ -1,10 +1,10 @@
 import Tablesprite from '@/port/tableComp';
 import Window from '@/port/window';
-import { type SharedData } from '@/types';
-import { Head, usePage } from '@inertiajs/react';
+// import { type SharedData } from '@/types';
+import { Head } from '@inertiajs/react';
 
 export default function Welcome() {
-    const { auth } = usePage<SharedData>().props;
+    // const { auth } = usePage<SharedData>().props;
 
     return (
         <>
