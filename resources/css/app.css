@@ -43,15 +43,15 @@
     }
 }
 
-@layer base {
+/* @layer base {
     * {
-        /* @apply border-border; */
+        @apply border-border;
     }
 
     body {
-        /* @apply bg-background text-foreground; */
+        @apply bg-background text-foreground;
     }
-}
+} */
 
 @layer utilities {
     .h-tablehit {
@@ -61,7 +61,30 @@
     .h-window {
         height: calc(2 / 3 * 100vh);
     }
-    
+    .frame2 {
+        border-color: #000000 #4785f8;
+        border-image: none;
+        border-radius: 0 0 0 0;
+        -moz-border-radius: 0 0 0 0;
+        -webkit-border-radius: 0 0 0 0;
+        border-style: solid;
+        border-width: 20px;
+    }
+
+    .computer {
+        position: absolute;
+        height: 20em;
+        width: 55vw;
+        left: 50%;
+        bottom: 20vh;
+        background-color: red;
+        transform: translateX(-50%);
+    }
+
+    .innerWindow::after {
+        content: '';
+        
+    }
 }
 :root {
     --tablecolorbase: hsl(341, 37%, 39%);

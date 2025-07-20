@@ -6,6 +6,7 @@ function Tablesprite() {
             {/* Top Shadow */}
             <div className="flex h-full flex-col bg-linear-to-t from-table to-tablelight"></div>
 
+            {/* <div className="computer"></div> */}
             {/* <Computer />
             <Keyboard /> */}
             {/* Bottom shadow */}
