@@ -1,7 +1,7 @@
 function window() {
     return (
-        <div className=" bg-amber-500 b">
-            <div className="sdsd"></div>
+        <div className="h-window bg-background p-5">
+            <div className="innerWindow h-full bg-amber-500"></div>
         </div>
     );
 }
